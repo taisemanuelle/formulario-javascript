@@ -9,16 +9,30 @@
         h1
         {
             text-align: left;
+            margin: 1%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
          input
          {
              border: 1 solid black;
              margin-top: 1%;
              box-sizing: border-box;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             border-radius: 5%;
+             
+         }
+         body
+         {
+             width: 50%;
+             height: 50%;
+             float: center;
          }
          fieldset
          {
-             text-align: left;
+            border: 1px solid #dcdcdc;
+				border-radius: 10px;
+				padding: 20px;
+				text-align: left;}
          }
     </style>
 </head>
@@ -26,7 +40,8 @@
     <form action="formulario-js">
         <h1>Formulário de Cadastro</h1>
         <br>
-        <fieldset>
+       <fieldset>
+           <legend>Preencha o formulário</legend>
             Nome:
             <input type="text" id="nome">
             <br>
@@ -39,6 +54,7 @@
             Repetir senha:
             <input type="password" id="password">
             <br>
+       
             Módulo:
             <select name="modulo">
                     <option value="primeiro">Primeiro</option>
@@ -54,7 +70,7 @@
                   <br>
                   <input type="submit" value="Salvar">
                   <input type="submit" value="Limpar">
-                </fieldset>
+                </fieldset> 
     </form>
 </body>
 </html>
