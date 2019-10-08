@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1
+        {
+            text-align: left;
+        }
+         input
+         {
+             border: 1 solid black;
+             margin-top: 1%;
+             box-sizing: border-box;
+         }
+         fieldset
+         {
+             text-align: left;
+         }
+    </style>
+</head>
+<body>
+    <form action="formulario-js">
+        <h1>Formulário de Cadastro</h1>
+        <br>
+        <fieldset>
+            Nome:
+            <input type="text" id="nome">
+            <br>
+            E-mail:
+            <input type="text" id="email">
+            <br>
+            Senha:
+            <input type="password" id="password">
+            <br>
+            Repetir senha:
+            <input type="password" id="password">
+            <br>
+            Módulo:
+            <select name="modulo">
+                    <option value="primeiro">Primeiro</option>
+                    <option value="segundo">Segundo</option>
+                    <option value="terceiro">Terceiro</option>
+                  </select>
+                  <br>
+                  Preferências:
+                  <br>
+                  <input type="checkbox" name="redes" value="redes">Redes
+                  <input type="checkbox" name="redes" value="redes">Programação
+                  <input type="checkbox" name="redes" value="redes"> Montagem e manutenção
+                  <br>
+                  <input type="submit" value="Salvar">
+                  <input type="submit" value="Limpar">
+                </fieldset>
+    </form>
+</body>
+</html>
